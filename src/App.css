@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #c7dc90;
+}
+
+.parallax {
+  perspective: 100px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  right: 0;
+  bottom: 0;
+  margin-left: 0px;
+}
+
+.parallax_layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.parallax_layer img {
+  position: absolute;
+  bottom: 0;
+}
+
+.parallax_layer_15 {
+  transform: translateZ(-700px) scale(8);
+}
+
+.parallax_layer_14 {
+  transform: translateZ(-650px) scale(7.5);
+}
+
+.parallax_layer_13 {
+  transform: translateZ(-600px) scale(7);
+}
+
+.parallax_layer_12 {
+  transform: translateZ(-550px) scale(6.5);
+}
+
+.parallax_layer_11 {
+  transform: translateZ(-325px) scale(4.25);
+}
+
+.parallax_layer_10 {
+  transform: translateZ(-300px) scale(4);
+}
+
+.parallax_layer_9 {
+  transform: translateZ(-275px) scale(3.75);
+}
+
+.parallax_layer_8 {
+  transform: translateZ(-250px) scale(3.5);
+}
+
+.parallax_layer_7 {
+  transform: translateZ(-225px) scale(3);
+}
+
+.parallax_layer_6 {
+  transform: translateZ(-200px) scale(2.75);
+}
+
+.parallax_layer_5 {
+  transform: translateZ(-100px) scale(2);
+}
+
+.parallax_layer_4 {
+  transform: translateZ(-75px) scale(1.75);
+}
+
+.parallax_layer_3 {
+  transform: translateZ(-50px) scale(1.5);
+}
+
+.parallax_layer_2 {
+  transform: translateZ(-25px) scale(1.25);
+}
+
+.parallax_layer_1 {
+  transform: translateZ(0px) scale(1);
+  box-shadow: inset 0 -30px 30px -10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 1000px) {
+  .parallax_layer img {
+    position: absolute;
+    bottom: 0;
+    min-width: 1000px;
+  }
+}
+
+.parallax_cover {
+  background: #101f25;
+  display: block;
+  position: fixed;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 35px;
+  }
+}
+
+@-webkit-keyframes wheel {
+  to {
+    opacity: 0;
+    top: 35px;
+  }
+}
