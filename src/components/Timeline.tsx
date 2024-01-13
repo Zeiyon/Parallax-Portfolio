@@ -14,7 +14,7 @@ function TimelineComponent() {
   return (
     <>
       <p className="self-start text-white m-3 text-slate-200 mt-12 mb-1">
-        Where I've been
+        What I've been up to
       </p>
       <h2 className="self-start text-5xl text-white font-extrabold m-3 mt-0">
         My Work Experience
