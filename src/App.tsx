@@ -1,10 +1,10 @@
 import "./App.css";
 import "./index.css";
-import TimelineComponent from "./components/timeline/Timeline";
-import ProjectsComponent from "./components/projects/Projects";
-import SkillsComponent from "./components/skills/Skills";
-import ContactComponent from "./components/contact/Contact";
-import FooterComponent from "./components/footer/Footer";
+import TimelineComponent from "./components/Timeline";
+import ProjectsComponent from "./components/Projects";
+import SkillsComponent from "./components/Skills";
+import ContactComponent from "./components/Contact";
+import FooterComponent from "./components/Footer";
 import layer1 from "./assets/imgs/layer1.png";
 import layer2 from "./assets/imgs/layer2.png";
 import layer3 from "./assets/imgs/layer3.png";

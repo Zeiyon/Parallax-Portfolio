@@ -1,11 +1,11 @@
-import "../../index.css";
+import "../index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
-import myNovaProfessors from "../../assets/imgs/projects/MyNovaProfessors.png";
-import portfolio from "../../assets/imgs/projects/MyNovaProfessors.png";
-import mcBuilds from "../../assets/imgs/projects/MyNovaProfessors.png";
+import myNovaProfessors from "../assets/imgs/projects/MyNovaProfessors.png";
+import portfolio from "../assets/imgs/projects/MyNovaProfessors.png";
+import mcBuilds from "../assets/imgs/projects/MyNovaProfessors.png";
 
 function ProjectsComponent() {
   return (

@@ -1,14 +1,14 @@
-import "../../index.css";
+import "../index.css";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import schaefflerImage from "../../assets/imgs/logos/schaeffler.png";
-import builtbybitImage from "../../assets/imgs/logos/builtbybit.jpg";
-import nvccImage from "../../assets/imgs/logos/nvcc.png";
-import freelanceImage from "../../assets/imgs/logos/freelance.png";
-import mineworksImage from "../../assets/imgs/logos/mineworks.png";
+import schaefflerImage from "../assets/imgs/logos/schaeffler.png";
+import builtbybitImage from "../assets/imgs/logos/builtbybit.jpg";
+import nvccImage from "../assets/imgs/logos/nvcc.png";
+import freelanceImage from "../assets/imgs/logos/freelance.png";
+import mineworksImage from "../assets/imgs/logos/mineworks.png";
 
 function TimelineComponent() {
   return (
