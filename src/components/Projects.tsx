@@ -7,6 +7,7 @@ import myNovaProfessors from "../assets/imgs/projects/myNovaProfessors.png";
 import portfolio from "../assets/imgs/projects/portfolio.png";
 import mcBuilds from "../assets/imgs/projects/mcbuilds.png";
 import cartelTheme from "../assets/imgs/projects/cartelTheme.png";
+import dailyRewards from "../assets/imgs/projects/dailyRewards.jpg";
 
 function ProjectsComponent() {
   return (
@@ -321,7 +322,7 @@ function ProjectsComponent() {
           <div className="flex-initial rounded-xl bg-black p-4 h-auto w-full sm:w-80 md:w-96 m-4 hover:shadow-md hover:scale-105 transition-transform transition-shadow duration-300">
             <img
               className="rounded-xl"
-              src="https://placehold.co/400x300/"
+              src={dailyRewards}
               alt="DailyRewards Plugin"
             />
             <div className="flex justify-between my-2">
