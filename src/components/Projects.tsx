@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
-import myNovaProfessors from "../assets/imgs/projects/myNovaProfessors.png";
+import myNovaProfessors from "../assets/imgs/projects/novaProfessors.png";
 import portfolio from "../assets/imgs/projects/portfolio.png";
 import mcBuilds from "../assets/imgs/projects/mcbuilds.png";
 import cartelTheme from "../assets/imgs/projects/cartelTheme.png";
