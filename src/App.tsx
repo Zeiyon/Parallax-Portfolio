@@ -46,8 +46,8 @@ function App() {
         <div className="parallax_layer parallax_layer_8">
           <img src={layer7} />
         </div>
-        <div className="parallax_layer parallax_layer_6 flex justify-center items-end mb-[18vw]">
-          <h1 className="lg:text-[40vh] text-center font-bold text-white hidden lg:block">
+        <div className="parallax_layer parallax_layer_6 flex justify-center items-end mb-[20vw]">
+          <h1 className="lg:text-[35vh] text-center font-bold text-white hidden lg:block">
             TALHA
           </h1>
         </div>
@@ -77,7 +77,7 @@ function App() {
         </div>
 
         <div className="parallax_cover flex justify-center">
-          <div className="block w-[85vw]">
+          <div className="block w-[85vw] max-w-[110rem]">
             <div className="flex flex-col items-center">
               <TimelineComponent />
 

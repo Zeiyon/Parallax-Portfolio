@@ -81,7 +81,7 @@ const SkillsComponent: React.FC = () => {
         various challenges with confidence
       </p>
       <div
-        className="overflow-hidden w-11/12 rounded-xl px-4"
+        className="overflow-hidden w-11/12 rounded-xl px-4 max-w-[90rem]"
         style={{ height: "250px" }}
       >
         <div className="flex h-full" ref={slideRef}>

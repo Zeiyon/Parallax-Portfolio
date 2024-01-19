@@ -3,9 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
-import myNovaProfessors from "../assets/imgs/projects/MyNovaProfessors.png";
-import portfolio from "../assets/imgs/projects/MyNovaProfessors.png";
-import mcBuilds from "../assets/imgs/projects/MyNovaProfessors.png";
+import myNovaProfessors from "../assets/imgs/projects/myNovaProfessors.png";
+import portfolio from "../assets/imgs/projects/portfolio.png";
+import mcBuilds from "../assets/imgs/projects/mcbuilds.png";
+import cartelTheme from "../assets/imgs/projects/cartelTheme.png";
 
 function ProjectsComponent() {
   return (
@@ -22,7 +23,7 @@ function ProjectsComponent() {
         capabilities and the problems I've sought to solve
       </p>
 
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center max-w-[96rem]">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -45,7 +46,7 @@ function ProjectsComponent() {
               </h3>
               <div>
                 <a
-                  href="https://github.com/zeiyon"
+                  href="https://github.com/Zeiyon/NotePal"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -105,7 +106,7 @@ function ProjectsComponent() {
               <h3 className="text-xl text-white font-bold">MyNovaProfessors</h3>
               <div>
                 <a
-                  href="https://github.com/zeiyon"
+                  href="https://github.com/Zeiyon/MyNovaProfessorsWebsite"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -165,7 +166,7 @@ function ProjectsComponent() {
               </h3>
               <div>
                 <a
-                  href="https://github.com/zeiyon"
+                  href="https://github.com/Zeiyon/Parallax-Portfolio"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -200,58 +201,112 @@ function ProjectsComponent() {
           </div>
         </motion.div>
 
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          transition={{ duration: 0.3 }}
-          variants={{
-            visible: { opacity: 1, scale: 1 },
-            hidden: { opacity: 0, scale: 0.5 },
-          }}
+<motion.div
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: true }}
+  transition={{ duration: 0.3 }}
+  variants={{
+    visible: { opacity: 1, scale: 1 },
+    hidden: { opacity: 0, scale: 0.5 },
+  }}
+>
+  <div className="flex-initial rounded-xl bg-black p-4 h-auto w-full sm:w-80 md:w-96 m-4 hover:shadow-md hover:scale-105 transition-transform transition-shadow duration-300">
+    <img className="rounded-xl" src={mcBuilds} alt="MCBuilds" />
+    <div className="flex justify-between my-2">
+      <h3 className="text-xl text-white font-bold">MCBuilds</h3>
+      <div>
+        <a
+          href="https://github.com/Zeiyon/MCBuilds"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          <div className="flex-initial rounded-xl bg-black p-4 h-auto w-full sm:w-80 md:w-96 m-4 hover:shadow-md hover:scale-105 transition-transform transition-shadow duration-300">
-            <img className="rounded-xl" src={mcBuilds} alt="MCBuilds" />
-            <div className="flex justify-between my-2">
-              <h3 className="text-xl text-white font-bold">MCBuilds</h3>
-              <div>
-                <a
-                  href="https://github.com/Zeiyon/MCBuilds"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon
-                    className=""
-                    icon={faGithub}
-                    size="xl"
-                    style={{ color: "#ffffff" }}
-                  />
-                </a>
-                <a
-                  href="https://mcbuilds.net"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon
-                    className="ml-2"
-                    icon={faLink}
-                    size="lg"
-                    style={{ color: "#ffffff" }}
-                  />
-                </a>
-              </div>
-            </div>
+          <FontAwesomeIcon
+            className=""
+            icon={faGithub}
+            size="xl"
+            style={{ color: "#ffffff" }}
+          />
+        </a>
+        <a
+          href="https://mcbuilds.net"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon
+            className="ml-2"
+            icon={faLink}
+            size="lg"
+            style={{ color: "#ffffff" }}
+          />
+        </a>
+      </div>
+    </div>
 
-            <p className="text-white mb-2 text-slate-200">
-              Created a responsive theme for my webstore, elevating user
-              experience and boosting retention. Passive income venture,
-              generating slightly above $100/month by selling ready-to-use video
-              game files, generating consistent revenue streams
-            </p>
-            <h5 className="text-green-500 inline-block">#business&nbsp;</h5>
-            <h5 className="text-purple-500 inline-block">#bootstrap&nbsp;</h5>
-          </div>
-        </motion.div>
+    <p className="text-white mb-2 text-slate-200">
+      Created a responsive theme for my webstore, elevating user
+      experience and boosting retention. Passive income venture,
+      generating slightly above $100/month by selling ready-to-use video
+      game files, generating consistent revenue streams
+    </p>
+    <h5 className="text-green-500 inline-block">#business&nbsp;</h5>
+    <h5 className="text-purple-500 inline-block">#bootstrap&nbsp;</h5>
+  </div>
+</motion.div>
+
+<motion.div
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: true }}
+  transition={{ duration: 0.3 }}
+  variants={{
+    visible: { opacity: 1, scale: 1 },
+    hidden: { opacity: 0, scale: 0.5 },
+  }}
+>
+  <div className="flex-initial rounded-xl bg-black p-4 h-auto w-full sm:w-80 md:w-96 m-4 hover:shadow-md hover:scale-105 transition-transform transition-shadow duration-300">
+    <img className="rounded-xl" src={cartelTheme} alt="MCBuilds" />
+    <div className="flex justify-between my-2">
+      <h3 className="text-xl text-white font-bold">Enjin Cartel</h3>
+      <div>
+        <a
+          href="https://github.com/Zeiyon/MCBuilds"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon
+            className=""
+            icon={faGithub}
+            size="xl"
+            style={{ color: "#ffffff" }}
+          />
+        </a>
+        <a
+          href="https://mcbuilds.net"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon
+            className="ml-2"
+            icon={faLink}
+            size="lg"
+            style={{ color: "#ffffff" }}
+          />
+        </a>
+      </div>
+    </div>
+
+    <p className="text-white mb-2 text-slate-200">
+      Created a responsive theme for my webstore, elevating user
+      experience and boosting retention. Passive income venture,
+      generating slightly above $100/month by selling ready-to-use video
+      game files, generating consistent revenue streams
+    </p>
+    <h5 className="text-orange-500 inline-block">#HTML&nbsp;</h5>
+    <h5 className="text-blue-500 inline-block">#CSS&nbsp;</h5>
+    <h5 className="text-yellow-500 inline-block">#JavaScript&nbsp;</h5>
+  </div>
+</motion.div>
 
         <motion.div
           initial="hidden"
