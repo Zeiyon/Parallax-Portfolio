@@ -9,6 +9,8 @@ import builtbybitImage from "../assets/imgs/logos/builtbybit.jpg";
 import nvccImage from "../assets/imgs/logos/nvcc.png";
 import freelanceImage from "../assets/imgs/logos/freelance.png";
 import mineworksImage from "../assets/imgs/logos/mineworks.png";
+import blueskyImage from '../assets/imgs/logos/bluesky.jpeg';
+
 
 function TimelineComponent() {
   return (
@@ -30,7 +32,59 @@ function TimelineComponent() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#183536", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  #183536" }}
-          date="Aug 2023 - present"
+          date="June 2024 - present"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={
+            <div>
+              <img
+                src={blueskyImage}
+                alt="Blue Sky Innovators Logo"
+                className="rounded-full"
+              />
+            </div>
+          }
+        >
+          <h3 className="vertical-timeline-element-title font-bold text-xl">
+            AI Engineering Intern
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle font-medium text-slate-300 text-md pb-2">
+            BlueSky Innovators
+          </h4>
+          <ul
+            style={{
+              fontWeight: "400",
+              fontSize: "0.875rem",
+            }}
+          >
+            <li style={{ padding: "0.2rem" }}>
+              • &nbsp; Developed a React Front-End with <b>WebSocket</b> for <b>live ASR</b> using FastAPI and <b>Nvidia NeMo</b>, enabling real-time transcriptions
+            </li>
+            <li style={{ padding: "0.2rem" }}>
+              • &nbsp; Integrated voice commands into live ASR for <b>semantic routing</b>, facilitating <b>AI Agent interactions</b> and information retrieval
+            </li>
+            <li style={{ padding: "0.2rem" }}>
+              • &nbsp; Implemented multi-meeting support with optimized, <b>stateful React behavior</b>, ensuring efficient updates and performance
+            </li>
+            <li style={{ padding: "0.2rem" }}>
+              • &nbsp; Collaborated with team members to implement live <b>speaker diarization</b>, enhancing the accuracy of real-time transcriptions
+            </li>
+          </ul>
+          <h5
+            style={{
+              fontWeight: "400",
+              color: "rgb(203 213 225)",
+              fontSize: "14px",
+              marginTop: "5px",
+            }}
+          >
+            Reston, VA
+          </h5>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#183536", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #183536" }}
+          date="Aug 2023 - Dec 2023"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={
             <div>
@@ -43,7 +97,7 @@ function TimelineComponent() {
           }
         >
           <h3 className="vertical-timeline-element-title font-bold text-xl">
-            Fullstack Software Engineer Co-op
+            Fullstack Software Engineer Intern
           </h3>
           <h4 className="vertical-timeline-element-subtitle font-medium text-slate-300 text-md pb-2">
             Schaeffler Group
@@ -252,7 +306,7 @@ function TimelineComponent() {
               <img
                 src={mineworksImage}
                 alt="MineWorks Logo"
-                className="rounded-full mt-1"
+                className="rounded-full mt-2"
               />
             </div>
           }
