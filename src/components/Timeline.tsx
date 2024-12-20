@@ -4,6 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import uvaImage from "../assets/imgs/logos/uva.png";
 import schaefflerImage from "../assets/imgs/logos/schaeffler.png";
 import builtbybitImage from "../assets/imgs/logos/builtbybit.jpg";
 import nvccImage from "../assets/imgs/logos/nvcc.png";
@@ -32,7 +33,53 @@ function TimelineComponent() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#183536", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  #183536" }}
-          date="June 2024 - present"
+          date="Aug 2024 - present"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={
+            <div>
+              <img
+                src={uvaImage}
+                alt="University of Virginia Logo"
+                className="rounded-full"
+              />
+            </div>
+          }
+        >
+          <h3 className="vertical-timeline-element-title font-bold text-xl">
+            Machine Learning Undergrad Researcher
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle font-medium text-slate-300 text-md pb-2">
+            University of Virginia
+          </h4>
+          <ul
+            style={{
+              fontWeight: "400",
+              fontSize: "0.875rem",
+            }}
+          >
+            <li style={{ padding: "0.2rem" }}>
+              • &nbsp; Investigated the use of sequential gradient descent to enhance training speed and efficiency in ML models
+            </li>
+            <li style={{ padding: "0.2rem" }}>
+              • &nbsp; Conducted analysis to reduce convergence time, contributing to advanced optimization techniques
+            </li>
+          </ul>
+          <h5
+            style={{
+              fontWeight: "400",
+              color: "rgb(203 213 225)",
+              fontSize: "14px",
+              marginTop: "5px",
+            }}
+          >
+            Charlottesville, VA
+          </h5>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#183536", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #183536" }}
+          date="June 2024 - Aug 2024"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={
             <div>
