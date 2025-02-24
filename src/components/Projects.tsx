@@ -59,7 +59,7 @@ function ProjectsComponent() {
                   />
                 </a>
                 <a
-                  href="https://note.pal"
+                  href="https://notepaly.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -118,7 +118,7 @@ function ProjectsComponent() {
                   />
                 </a>
                 <a
-                  href="https://mynovaprofessors.com"
+                  href="https://mynovaprofessors.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -178,7 +178,7 @@ function ProjectsComponent() {
                   />
                 </a>
                 <a
-                  href="https://talha.bio"
+                  href="https://zeiyon.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

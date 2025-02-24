@@ -66,7 +66,7 @@ function FooterComponent() {
           </div>
           <div className="h-full flex justify-center md:justify-end items-end">
             <p className="text-center md:text-right text-white">
-              Copyright © 2023. All Rights Reserved
+              Copyright © 2025. All Rights Reserved
             </p>
           </div>
         </div>
